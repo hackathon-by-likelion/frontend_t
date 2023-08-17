@@ -1,0 +1,61 @@
+.main_frame{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 415px;
+    max-height: 1000px;
+    border-style: solid;
+    border-color: rgb(14, 2, 73);
+    border-radius: 12px; 
+}
+
+.tutorial_title {
+    text-align: center;
+    border-radius: 12px; 
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0rem auto; 
+    overflow: hidden;
+}
+
+.sub_title{
+    text-align: center;
+    border-radius: 12px; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0rem 0px; 
+    overflow: hidden;
+}
+
+.first_button button{
+    font-size: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #fe9f42;
+    background-color: #fe9f42;
+    color: white;
+    margin: auto;
+    width: 400px;
+    height: 120px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 4px #5c1bde;
+    border-radius: 12px;
+}
+
+.practice_button button{
+    font-size: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #108890;
+    background-color: rgb(32, 120, 126);
+    color: white;
+    border-radius: 12px;
+    margin: auto;
+    width: 400px;
+    height: 120px;
+    box-shadow: 0px 4px 4px #5c1bde;
+    border-radius: 12px;
+}

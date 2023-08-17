@@ -1,0 +1,86 @@
+/* TogetherCheck.css */
+
+.tg_train-inquiry-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    background: #eee;
+    width: 430px;
+    height: 485px;
+    margin: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+    padding: 0px 0px 70px 0px;
+}
+
+.tg_image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.tg_title {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 420px; /* 이미지와 같은 가로 크기 */
+    text-align: center;
+    border: 1px solid blue;
+    background-color: rgb(39, 39, 170);
+    color: white;
+    padding: 10px;
+}
+
+.tg_image_frame {
+    position: relative;
+    margin-top: 10px; /* 이미지와 간격 조정 */
+}
+
+.train-image {
+    width: 415px; /* 이미지 프레임의 가로 크기 */
+    height: 550px; /* 이미지 프레임의 세로 크기 */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.tg_image-button,
+.tg_seat-button,
+.tg_change_image {
+    position: absolute;
+    cursor: pointer;
+}
+
+.tg_image-button {
+    position: absolute;
+    left: 54%;
+    top: 59%;
+    border: none;
+    width: 56px;
+    height: 38px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tg_seat-button {
+    left: 1px;
+    top: 90%;
+    border: none;
+    width: 410px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tg_change_image {
+    position: absolute;
+    top: 300px;
+    right: 90px;
+    width: 72px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}

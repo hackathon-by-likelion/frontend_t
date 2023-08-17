@@ -1,0 +1,40 @@
+.t_per_frame{
+    width: 90%;
+    height: 80px;
+    font-size: 5px;
+    font-weight: 300;
+    color: blue;
+    border-bottom: 2px solid #bcbcbc;
+    margin: 5px auto;
+}
+.t_per_data{
+    margin-top: 10px;
+    font-size: 16px;
+    color: black
+}
+.t_per_button{
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.per_message{
+    position: absolute; /* 위치 설정을 위해 절대 위치로 설정 */
+    left: -40px; /* 원하는 위치로 설정 (맞게 조절 필요) */
+    top: 380px; /* 원하는 위치로 설정 (맞게 조절 필요) */
+    background: #5677f4;
+    color: #fff;
+    padding: 13px;
+    border-radius: 20rem;
+    box-shadow: 2px 2px 3px #d1d1d1;
+    z-index: 10; /* 말풍선이 버튼 위에 오도록 설정 */
+    width: 180px; /* 말풍선의 너비 */
+    text-align: center;
+    display: none; /* 기본적으로 보이지 않도록 설정 */
+    font-size: 11pt;
+  }
+  
+.t_per_button:hover .per_message{
+      display: block;
+  }
+  

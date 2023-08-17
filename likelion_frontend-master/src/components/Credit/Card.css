@@ -1,0 +1,375 @@
+.card_main{
+    position: relative;
+    pointer-events: auto;
+    bottom: 0;
+    background: #eee;
+    width: 430px;
+    height: 600px;
+    margin:auto;
+    margin-top:50px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+    padding: 0px 0px 70px 0px; 
+    overflow: auto;
+  }
+
+  
+  .c_menubar {
+    background-color: rgb(117, 61, 190);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    height: 70px;
+    width: 413px;
+  }
+  
+  .c_pay{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #cfd5d7;
+    font-size: 25px;
+    padding: 10px 10px 70px 190px; 
+    position: relative;
+  }
+  
+  .c_close {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #cfd5d7;
+    font-size: 30px;
+    padding: 10px 0px 70px 100px; 
+  }
+  
+  .c_first {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    justify-content: center;
+  }
+  
+  .c_first_1{
+    margin-right: 90px;
+  }
+  
+  .c_separator {
+    width: 200px;
+    height: 2px;
+    background-color: #cfd5d7;
+    margin: 0 3px;
+    display: inline-block; /* 가로로 배치 */
+  }
+  
+  .c_separator.purple {
+    background-color: purple; /* 보라색 배경 적용 */
+  }
+  
+  .c_second {
+    margin-top: 20px;
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    padding: 10px 0px 10px;
+    flex-direction: column; /* 세로로 정렬 설정 */
+    font-size: 15px;
+  }
+  
+  .c_ride_price {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .c_discount_price {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .c_left {
+    margin-left: 20px; 
+    font-weight: 700;
+  }
+  
+  .c_right {
+    margin-right: 20px;
+    font-weight: 500;
+  }
+  
+  .c_num1 {
+    margin-right: 13em; /* 원하는 간격으로 조정하세요 */
+  }
+  
+  .c_second:after {
+    content: ''; 
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7; 
+  }
+  
+  .c_third{
+    margin-top: 20px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* 세로로 정렬 설정 */
+  }
+  
+  .c_down {
+    margin-top: 10px;
+  }
+  
+  .c_third:after {
+    content: ''; 
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7; 
+  }
+  
+  .c_fourth{
+    margin-top: 20px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* 세로로 정렬 설정 */
+  }
+  
+  .c_fourth:after {
+    content: ''; 
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7; 
+  }
+  
+  .c_retry {
+    margin-top: 20px;
+    color: rgb(122, 61, 174);
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .c_retry:after {
+    content: ''; 
+    position: absolute;
+    bottom: 37%;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7; 
+  }
+  
+  .c_card_number_input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .c_card_number_input label { /*카드번호*/
+    margin-right: 30px;
+  }
+  
+  .c_card_number_container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .c_card_number_container input {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .c_expiry_input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* 필요한 마진 값 설정 */
+  }
+  
+  .c_expiry_input label {
+    margin-left: 22px;
+    margin-right: 31px;
+  }
+  
+  .c_expiry_container {
+    display: flex;
+    align-items: center;
+    margin-right: 27.5%;
+  }
+  
+  .c_expiry_container input {
+    width: 60px;
+    height: 30px;
+    text-align: center; /* 텍스트 가운데 정렬 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px; /* 네모칸 사이의 간격 조정 */
+  }
+  
+  .c_expiry_container span {
+    margin-right: 5px; /* 월과 년 사이의 간격 조정 */
+  }
+  
+  .c_password_input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .c_password_input label {
+    margin-left: 22px;
+    margin-right: 31px;
+  }
+  
+  .c_password_container {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .c_password_container input {
+    width: 60px;
+    height: 30px;
+    text-align: center; /* 텍스트 가운데 정렬 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .c_verification_input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .c_verification_input label {
+    margin-left: 22px;
+    margin-right: 31px;
+  }
+  
+  .c_verification_container {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    color:rgb(114, 42, 173);
+    gap: 10px;
+  }
+  
+  .c_verification_container input {
+    width: 150px;
+    height: 30px;
+    text-align: center; /* 텍스트 가운데 정렬 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .c_installment_input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .c_installment_input label {
+    margin-left: 22px;
+    margin-right: 31px;
+  }
+  
+  .c_installment_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .c_frequent_card_input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .c_frequent_card_input label {
+    margin-left: 22px;
+    margin-right: 31px;
+  }
+  
+  .c_frequent_card_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+  }
+  
+  .c_memo {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 22px;
+  }
+  
+  .c_agreement_input {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 21px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .c_amount {
+    background-color: rgb(69, 67, 72);
+    color: #eee;
+    height: 70px;
+    width: 413px;
+    margin-top: 50px;
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .c_total {
+    margin-left: 30px; 
+  }
+  
+  .c_price {
+    margin-right: 30px; 
+  }
+  
+  .c_button {
+    border: solid;
+    border-width: 1px;
+    width: 150px; 
+    height: 40px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+    margin: 20px auto; 
+    text-align: center;
+  }

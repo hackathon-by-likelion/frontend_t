@@ -1,0 +1,226 @@
+.b_bill{
+    position: relative;
+    pointer-events: auto;
+    bottom: 0;
+    background: #eee;
+    width: 430px;
+    height: 600px;
+    margin:auto;
+    margin-top:50px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+    padding: 0px 0px 70px 0px; 
+    overflow: auto;
+  }
+  
+  .b_menubar {
+    background-color: rgb(24, 37, 94);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    height: 70px;
+    width: 413px;
+  }
+  
+  .b_check {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #cfd5d7;
+    font-size: 25px;
+    padding: 10px 10px 70px 150px; 
+    position: relative;
+  }
+  
+  .b_close {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #cfd5d7;
+    font-size: 30px;
+    padding: 10px 0px 70px 80px; 
+  }
+  
+  .b_section {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    justify-content: center;
+  }
+  
+  .b_section_1{
+    margin-right: 90px;
+  }
+  
+  .b_stick {
+    width: 200px;
+    height: 2px;
+    background-color: rgb(24, 37, 94)7;
+    margin: 0 3px;
+    display: inline-block; 
+  }
+  
+  .b_stick.impact {
+    background-color: rgb(24, 37, 94) 
+  }
+  
+  .b_location {
+    margin-top: 20px;
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 설정 */
+    align-items: center;
+  }
+  
+  .b_location_1 {
+   font-size: 30px;
+   font-weight: bold;
+   justify-content: space-around;
+  }
+  
+  .b_location_2 {
+    font-size: 20px;
+  }
+  
+  .b_direction {
+    margin: 2em; 
+  }
+  
+  .b_time1 {
+    margin-right: 9em; 
+  }
+  
+  .b_location:after {
+    content: ''; 
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7; 
+  }
+  
+  .b_train_info {
+    margin-top: 20px;
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .b_train {
+    margin-left: 20px; 
+    font-weight: 700;
+  }
+  
+  .b_tt {
+    margin-right: 20px;
+    font-weight: 500;
+  }
+  
+  .b_train_info:after {
+    content: ''; 
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7; 
+  }
+  
+  .b_table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .b_custom-table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .b_custom-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .b_custom_1 {
+    font-size: 15px;
+  }
+  
+  .b_sel1{
+    color: rgb(32, 41, 109);
+    font-weight: bold;
+  }
+  
+  .b_sel2 {
+    color: rgb(32, 41, 109);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .b_sel3{
+    color: rgb(32, 41, 109);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .b_image-container1 {
+    width: 80px; 
+    height: 80px; 
+    overflow: hidden; 
+  }
+  
+  .b_qr-image {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .b_image-container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0; 
+    margin: 10;
+    padding: 0;
+    margin-top: 0%;
+  }
+  
+  .b_date {
+    background-color: rgb(69, 67, 72);
+    color: #eee;
+    height: 25px;
+    width: 413px;
+    margin-top: 0px;
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .b_button-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 0;
+  }
+  
+  .b_button {
+    border: solid;
+    border-width: 1px;
+    width: 150px; 
+    height: 40px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; 
+    text-align: center;
+  }

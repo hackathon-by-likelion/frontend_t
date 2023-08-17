@@ -1,0 +1,79 @@
+/* Notice.css */
+
+.notice-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.notice-modal {
+  background-color: rgb(152, 112, 112);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  width: 400px; /* Adjust the width as needed */
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.notice-modal-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.notice-modal h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.notice-modal p {
+  margin-bottom: 10px;
+}
+
+.notice-modal button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.notice-modal button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .notice-modal {
+    width: 80%;
+  }
+}
+
+.but{
+  position: inherit;
+  width: 160px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: rgb(123, 171, 231);
+  cursor: pointer;
+}

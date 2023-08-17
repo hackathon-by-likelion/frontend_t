@@ -1,0 +1,105 @@
+/* styles.css */
+
+.together-content-wrapper {
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .together-top-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .together-expand-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .together-expanded-content {
+    display: none;
+  }
+  
+  .expanded {
+    display: block;
+  }
+  
+  .together-category-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .together-category-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .together-quantity-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .together-quantity-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .together-quantity-button[disabled] {
+    cursor: not-allowed;
+  }
+  
+  .together-quantity-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .styled-link {
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .styled-link:hover {
+    background-color: #ccc;
+  }
+  
+ .select{
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    margin-right: 2px;
+ }
+
+ .select:hover{
+    background-color: #ccc;
+ }

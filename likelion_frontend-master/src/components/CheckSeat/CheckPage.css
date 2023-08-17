@@ -1,0 +1,48 @@
+/* TrainInquiryPage.css */
+.train-inquiry-container {
+    text-align: center;
+    position: relative; /* 추가 */
+}
+  
+.train-image {
+    width: 415; /* 크기 조정 */
+    height: 550px; /* 크기 조정 */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+  
+.image-button {
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    left: 54%;
+    top: 59%;
+    border: none;
+    width: 56px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.seat-button{
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    left: 57%;
+    top: 85.5%;
+    border: none;
+    width: 98px;
+    height: 30px;
+    cursor: pointer;
+}
+  
+.title {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+  
+.button3{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

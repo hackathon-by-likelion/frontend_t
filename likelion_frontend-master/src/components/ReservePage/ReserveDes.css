@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.station-button {
+    color: #210462;
+    width: 10rem;
+    height: 2.2rem;
+    border: none;
+    color: #210462;
+    cursor: pointer;
+    background-color: white;
+}
+.left{
+    color: rgb(117, 108, 108);
+    width: 45%;
+    text-align: center;
+    display: block;
+}
+
+.station-button button.selected {
+    color: #210462; /* 선택된 버튼의 글자 색을 파란색으로 변경 */
+    border-bottom: 3px solid #210462; /* 선택된 버튼의 밑줄 색상을 파란색으로 변경 */
+}
+
+.right{
+    color: rgb(117, 108, 108);
+    width: 45%;
+    text-align: center;
+    display: block;
+}
+.modal{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    text-align: center;
+    width: 100%;
+}
+
+.start_button{
+    color: #210462;
+    width: 5rem;
+    height: 1rem;
+    border: none;
+    color: #210462;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.destinate_button{
+    color: #210462;
+    width: 5rem;
+    height: 1rem;
+    border: none;
+    color: #210462;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}

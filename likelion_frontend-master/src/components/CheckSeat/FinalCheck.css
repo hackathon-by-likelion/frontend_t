@@ -1,0 +1,182 @@
+/* TogetherCheck.css */
+
+.a_final_frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #eee;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+  }
+  
+  .a_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .a_body {
+    margin: 0;
+    background-color: #cfd5d7;
+  }
+  
+  .a_body,
+  html {
+    height: 100%;
+  }
+/* TogetherCheck.css */
+.a_choose {
+    display: flex;
+    flex-direction: column; /* 컨텐츠를 세로로 정렬 */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #cfd5d7;
+    font-size: 25px;
+    padding: 30px 0px 70px 0px;
+    position: relative;
+    overflow: hidden; /* 내용이 넘칠 때 숨기도록 설정 */
+}
+
+  .a_first {
+    margin-top: 10px;
+    position: relative;
+    font-size: 15px;
+  }
+  
+  .a_first:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7;
+  }
+  
+  .a_impact {
+    color: red;
+  }
+  
+  .a_button1-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
+  }
+  
+  .a_button1 {
+    border-radius: 30px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .a_button1 {
+    margin-right: 20px;
+  }
+  
+  .a_button1:last-child {
+    margin-right: 0;
+  }
+  
+  .a_second {
+    margin-top: 20px;
+    position: relative;
+    font-size: 15px;
+    color: #5b6570e2;
+  }
+  
+  .a_second:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cfd5d7;
+  }
+  
+  .a_third {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .a_third_content {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  
+  .a_menubar {
+    background-color: rgb(17, 17, 93);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    height: 70px;
+    width: 450px;
+  }
+  
+  .a_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #cfd5d7;
+    font-size: 30px;
+    padding: 20px 0px 70px 0px;
+  }
+  
+  .a_control {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .a_result {
+    height: 90px;
+    width: 459px;
+    background-color: #444a51;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+  }
+  
+  .a_complete {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(17, 17, 93);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .a_button2-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .a_button2 {
+    border: solid;
+    border-width: 1px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
